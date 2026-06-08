@@ -7,6 +7,23 @@
 
 ---
 
+## 2026-06-08
+
+### Connexion n8n + Claude API + intégration des agents Notion
+
+- n8n réparé sur le VPS Hostinger (srv1470204.hstgr.cloud, KVM 2, Ubuntu 24.04)
+- Problèmes résolus : Docker DNS cassé (fix via daemon.json avec Google DNS 8.8.8.8), réseau Docker recréé, conteneurs Traefik + n8n redémarrés
+- Connexion API Anthropic configurée dans n8n (clé API via en-têtes HTTP)
+- Premier workflow "Majdi Corail" opérationnel : génère des captions TikTok/Instagram via Claude Sonnet
+- Compte API Anthropic créé avec 5$ de crédits
+- 3 agents IA récupérés depuis Notion (créés le 5 juin) et intégrés comme commandes Claude Code :
+  - /lina : contenu (légendes, hashtags, scripts Reels, calendrier éditorial)
+  - /mia : visuels (prompts d'images pour Canva/générateurs)
+  - /sami : e-commerce (fiches produits Shopify, SEO, FAQ)
+- Hanna comprend maintenant la différence entre Claude Code (interactif) et n8n (automatisation sans intervention)
+
+---
+
 ## 2026-06-06
 
 ### Installation initiale du Jarvis
