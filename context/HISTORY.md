@@ -7,6 +7,23 @@
 
 ---
 
+## 2026-06-09
+
+### Création contenu Reel + plan vidéo automatique
+
+- Script Reel "Le corail rouge est plus rare que le diamant" créé par Lina, prompts visuels par Mia
+- 5 slides Canva générées pour chaque plan du Reel (HOOK, HISTOIRE, TRANSFORMATION, PRODUIT, CTA)
+- Design Canva ajouté au compte Hanna (Mediterranean Luxury Story Slide)
+- Photos bijoux corail retrouvées sur Google Drive (colliers, boucles d'oreilles, parure)
+- Vidéo originale Majdi Corail sauvegardée en MP4
+- Plan stratégique de génération vidéo automatique établi :
+  - Outils identifiés : HeyGen (avatar Maya), ElevenLabs (voix off), Creatomate (montage)
+  - Méthode : Zapier + n8n combinés
+  - Budget : test gratuit d'abord, puis ~38$/mois pour la production complète
+  - Workflow cible : Lina > ElevenLabs > HeyGen > Creatomate > Google Drive
+
+---
+
 ## 2026-06-08
 
 ### Connexion n8n + Claude API + intégration des agents Notion
