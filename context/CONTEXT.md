@@ -59,8 +59,10 @@ Aide-soignante à Genève. En parallèle, Hanna développe depuis plusieurs mois
 - **Boutique Shopify bijoux** : lancer la boutique en ligne pour vendre les bijoux de corail (débutante dans ce domaine, besoin d'accompagnement pas à pas)
 - **Développer Maya** : utiliser l'avatar IA pour toutes les présentations produits et la communication de la marque
 - **Boutique Shopify skincare** : projet à moyen terme, après le lancement de la boutique bijoux
-- **Préparation du Q4 2026** (depuis septembre 2026) : Hanna a repris une formation e-commerce pour préparer le dernier trimestre. Objectif : identifier les produits porteurs sur les temps forts commerciaux (Halloween, Black Friday le 27 novembre, Noël) et préparer la campagne Ramadan de février 2027. Elle veut s'appuyer sur TrendTrack pour la recherche produit. Mémo de préparation dans `livrables/strategie/2026-09-16-preparation-q4-tendances.md`
-  - **À clarifier :** est-ce que ce Q4 se prépare pour Majdi Corail, ou pour une activité e-commerce distincte (type dropshipping) ? Nom de la formation suivie non encore précisé
+- **Nouvelle boutique e-commerce pour le Q4 2026** (depuis septembre 2026) : projet **distinct de Majdi Corail**. Hanna a repris une formation e-commerce pour préparer le dernier trimestre et veut ouvrir une boutique, orientation skincare ou autre produit porteur. Cible réaliste : Black Friday (27 novembre) et Noël. Elle dispose d'un essai gratuit d'un mois sur TrendTrack pour la recherche produit
+  - Plan de lancement détaillé : `livrables/boutique/2026-09-16-plan-lancement-boutique-q4.md`
+  - **Contrainte identifiée :** vendre des cosmétiques en UE impose le règlement CE 1223/2009 (personne responsable, DIP, rapport de sécurité, notification CPNP, étiquetage FR). Incompatible avec un lancement avant le Black Friday. Recommandation faite : partir sur les **accessoires et outils beauté** (gua sha, rouleaux, masques LED, appareils), qui ne sont pas des cosmétiques au sens réglementaire, et garder la boutique cosmétique pour 2027
+  - **En attente de sa part :** choix de l'option, budget de départ, temps disponible par semaine, nom de la formation suivie
 
 ---
 
