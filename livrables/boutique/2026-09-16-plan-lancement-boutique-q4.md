@@ -84,18 +84,21 @@ On connecte TrendTrack, on regarde ce qui explose vraiment en ce moment, et on c
 
 ### Étape 0, cette semaine : la préparation (2 à 3 heures)
 
-- [ ] Activer ton **essai gratuit d'un mois TrendTrack**
-- [ ] Connecter TrendTrack à Claude (procédure dans `livrables/strategie/2026-09-16-preparation-q4-tendances.md`)
+- [ ] Activer ton **essai gratuit d'un mois TrackWinner**
 - [ ] Me confirmer l'option choisie (A, B ou C)
 - [ ] Définir ton budget de départ. Sois honnête sur le chiffre, ça conditionne tout le reste
 
+**Note :** TrackWinner n'a pas d'API ni de connecteur, je ne peux pas m'y brancher. Le transfert se fait par toi (export ou captures d'écran déposés dans `context/import/`). Détail de la méthode dans `livrables/strategie/2026-09-16-preparation-q4-tendances.md`.
+
 ### Étape 1, semaine du 21 septembre : recherche produit
 
-Une fois TrendTrack connecté, je sors pour toi :
-- Les accessoires beauté qui scalent sur les 30 derniers jours
-- Les boutiques concurrentes qui montent, et ce qu'elles vendent
-- Les publicités qui tournent et les hooks qui convertissent
-- Les prix pratiqués, pour calculer tes marges
+Tu lances les recherches dans TrackWinner, tu filtres sur la niche beauté et accessoires, et tu me déposes les rapports dans `context/import/`.
+
+De mon côté, je traite :
+- Le recalcul des marges réelles, publicité et frais de port inclus
+- Le croisement avec les tendances marché et la saisonnalité Q4
+- L'élimination des produits trop concurrentiels ou trop lents à livrer pour Noël
+- L'analyse de l'angle créatif et des hooks, adaptés à ta façon de filmer
 
 **Livrable :** une liste courte de 3 à 5 produits candidats, avec le calcul de marge pour chacun.
 
@@ -153,7 +156,7 @@ Ce n'est pas un argument pour ne pas le faire. C'est un argument pour **choisir 
 ## Ce que j'attends de toi pour démarrer
 
 1. **Ton choix : A, B ou C** (je recommande B)
-2. **TrendTrack connecté** (essai gratuit activé + connecteur ajouté sur claude.ai)
+2. **Tes premiers rapports TrackWinner** déposés dans `context/import/`
 3. **Ton budget de départ**, chiffre réel
 4. **Le temps dont tu disposes par semaine** pour ce projet, en heures
 

@@ -5,40 +5,34 @@
 
 ---
 
-## 1. Connecter TrendTrack à Claude
+## 1. L'outil de recherche produit : TrackWinner
 
-TrendTrack a ouvert son API et son serveur MCP. Ça veut dire que je peux interroger leur base directement dans la conversation (produits qui scalent, pubs gagnantes, boutiques en croissance), au lieu que tu fasses des captures d'écran de leur dashboard.
+**Correction du 16 septembre :** l'outil de Hanna est **TrackWinner** (`trackwinner.io`), pas TrendTrack. Ce sont deux produits différents et la méthode de travail n'est pas la même.
 
-### Ce que je ne peux pas faire moi-même
+### TrackWinner, ce que c'est
 
-La connexion passe par OAuth : c'est toi qui dois te connecter à ton compte TrendTrack et autoriser Claude. Je ne peux pas le faire à ta place depuis cette session, et je ne dois jamais te demander tes identifiants.
+TrackWinner sélectionne des produits issus de différentes boutiques et les classe selon des signaux observables : publicités en cours, niveau de concurrence, avis, fournisseurs, risques et indice de confiance. Pour chaque produit, il fournit un plan de test : angle créatif, budget, CPA maximum, marge avant publicité et étapes de validation.
 
-### Prérequis
+C'est un outil d'aide à la décision, pas une base de données brute. Il ne promet pas un produit gagnant, il réduit l'incertitude avant un test.
 
-- Un abonnement TrendTrack actif (la base est chez eux, le MCP ne donne pas accès gratuitement)
-- Un plan Claude Pro ou supérieur (les connecteurs personnalisés sont réservés à ces plans)
+### Ce que je ne peux pas faire
 
-### Étapes (à faire sur claude.ai, pas ici)
+**TrackWinner ne propose pas d'API ni de connecteur MCP publics.** Je ne peux donc pas interroger leur base directement depuis la conversation, et leur site est en plus bloqué par le proxy réseau de cette session. Il n'y a pas de connexion automatique à mettre en place.
 
-1. Ouvre **claude.ai** dans ton navigateur, connecte-toi
-2. Va dans **Paramètres** (ton avatar en bas à gauche) puis **Connecteurs**
-3. Clique sur **Ajouter un connecteur personnalisé**
-4. Dans le champ URL, colle : `https://api.trendtrack.io/v1/mcp`
-5. Valide. Claude ouvre une fenêtre TrendTrack : connecte-toi avec ton compte et **autorise l'accès**
-6. Reviens dans une conversation, vérifie que "TrendTrack" apparaît bien dans la liste des connecteurs activés
+À ne pas confondre : TrendTrack (`trendtrack.io`) est un autre outil, lui a un connecteur MCP. Si un jour tu bascules dessus, la connexion se fait sur claude.ai via **Paramètres → Connecteurs → Ajouter un connecteur personnalisé**, avec l'URL `https://api.trendtrack.io/v1/mcp`.
 
-Si TrendTrack te demande une clé plutôt qu'un login, elle se trouve dans ton compte TrendTrack sous **API Access → MCP Integration**. Ne me la colle pas dans le chat : range-la dans `secrets/keys.env`.
+### La méthode de travail avec TrackWinner
 
-### Une fois connecté, ce qu'on pourra faire ensemble
+Le transfert se fait par toi, et ça fonctionne très bien :
 
-- Sortir les produits en explosion sur les 7 / 14 / 30 derniers jours
-- Voir les pubs qui tournent en ce moment sur une niche et les hooks qui convertissent
-- Repérer les boutiques Shopify qui scalent avant tout le monde
-- Croiser tout ça avec ton positionnement et te sortir un plan de contenu
+1. Tu lances tes recherches dans TrackWinner avec ton mois gratuit
+2. Tu récupères les rapports produits : export CSV ou PDF si l'outil le propose, sinon copier-coller du texte, sinon captures d'écran
+3. Tu déposes les fichiers dans `context/import/`
+4. Je les analyse, je recalcule les marges, je croise avec les tendances du marché, et je te dis lesquels tiennent la route
 
-### Point de vigilance
+**Ce que je veux voir pour chaque produit :** le nom, le prix de vente pratiqué par les concurrents, le prix d'achat fournisseur, le nombre de publicités actives, la date de première détection, et le niveau de concurrence.
 
-L'info sur le connecteur vient de la doc TrendTrack et de leurs annonces publiques, je n'ai pas pu ouvrir leur site depuis cette session (bloqué par le proxy réseau). Si l'URL ne fonctionne pas, vérifie directement dans ton compte TrendTrack, section API / MCP.
+Ne me colle jamais tes identifiants TrackWinner. Si l'outil te donne une clé d'API un jour, elle va dans `secrets/keys.env`.
 
 ---
 

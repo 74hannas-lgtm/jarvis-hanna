@@ -75,7 +75,7 @@ Aide-soignante à Genève. En parallèle, Hanna développe depuis plusieurs mois
 - Canva (création de visuels)
 - CapCut (montage vidéo)
 - ChatGPT (avec difficultés)
-- TrendTrack (outil de veille produit et d'analyse des publicités concurrentes, connexion à Claude via connecteur MCP en cours)
+- TrackWinner (`trackwinner.io`, outil de recherche de produits gagnants : signaux publicitaires, concurrence, fournisseurs, plan de test). Essai gratuit d'un mois. **Pas d'API ni de connecteur MCP**, le transfert des données vers Claude se fait manuellement via `context/import/`
 
 ### Style de communication préféré
 

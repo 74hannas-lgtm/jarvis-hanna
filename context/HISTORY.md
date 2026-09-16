@@ -13,7 +13,8 @@
 
 - Hanna a repris une formation e-commerce pour préparer le Q4 2026 (nom de la formation non précisé)
 - Objectif de la session : identifier les produits tendances des temps forts du trimestre (Halloween, Black Friday, Noël) et du Ramadan de février 2027
-- Demande de connexion de TrendTrack à Claude. Procédure identifiée : connecteur personnalisé MCP à ajouter sur claude.ai avec l'URL `https://api.trendtrack.io/v1/mcp`, autorisation OAuth à valider par Hanna elle-même. Prérequis : abonnement TrendTrack actif et plan Claude Pro ou supérieur. Connexion non encore effectuée à la date de cette entrée
+- Demande initiale de connexion d'un outil de recherche produit. **Confusion levée en fin de session :** l'outil de Hanna est **TrackWinner** (`trackwinner.io`), pas TrendTrack. TrackWinner n'expose ni API ni connecteur MCP, aucune connexion automatique n'est possible. Méthode retenue : Hanna exporte ses rapports et les dépose dans `context/import/` pour analyse
+- Pour mémoire, TrendTrack (`trendtrack.io`) est un autre outil qui, lui, dispose d'un connecteur MCP (`https://api.trendtrack.io/v1/mcp`), utile si Hanna change d'outil un jour
 - Livrable produit : `livrables/strategie/2026-09-16-preparation-q4-tendances.md` (procédure de connexion, calendrier Q4, tendances produits et angle bijoux)
 - Analyse posée : Halloween n'est pas un temps fort pertinent pour le corail rouge, priorité à donner au Black Friday et à Noël. Le bijou personnalisé et le cadeau "souvenir" sont les catégories les plus porteuses du trimestre et correspondent au positionnement de Majdi Corail
 - Le Ramadan 2027 tombe hors Q4 (vers début février 2027), à traiter comme une campagne distincte préparée pendant le trimestre
