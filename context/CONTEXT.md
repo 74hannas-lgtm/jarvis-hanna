@@ -59,6 +59,8 @@ Aide-soignante à Genève. En parallèle, Hanna développe depuis plusieurs mois
 - **Boutique Shopify bijoux** : lancer la boutique en ligne pour vendre les bijoux de corail (débutante dans ce domaine, besoin d'accompagnement pas à pas)
 - **Développer Maya** : utiliser l'avatar IA pour toutes les présentations produits et la communication de la marque
 - **Boutique Shopify skincare** : projet à moyen terme, après le lancement de la boutique bijoux
+- **Préparation du Q4 2026** (depuis septembre 2026) : Hanna a repris une formation e-commerce pour préparer le dernier trimestre. Objectif : identifier les produits porteurs sur les temps forts commerciaux (Halloween, Black Friday le 27 novembre, Noël) et préparer la campagne Ramadan de février 2027. Elle veut s'appuyer sur TrendTrack pour la recherche produit. Mémo de préparation dans `livrables/strategie/2026-09-16-preparation-q4-tendances.md`
+  - **À clarifier :** est-ce que ce Q4 se prépare pour Majdi Corail, ou pour une activité e-commerce distincte (type dropshipping) ? Nom de la formation suivie non encore précisé
 
 ---
 
@@ -71,6 +73,7 @@ Aide-soignante à Genève. En parallèle, Hanna développe depuis plusieurs mois
 - Canva (création de visuels)
 - CapCut (montage vidéo)
 - ChatGPT (avec difficultés)
+- TrendTrack (outil de veille produit et d'analyse des publicités concurrentes, connexion à Claude via connecteur MCP en cours)
 
 ### Style de communication préféré
 
