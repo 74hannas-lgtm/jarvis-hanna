@@ -9,7 +9,7 @@
 |---|---|---|
 | 0 à 3 s | Branches de corail en gros plan | Il vient du fond / *de la Méditerranée* |
 | 3 à 6 s | Branche tenue dans la main | Corail rouge / *véritable* |
-| 6 à 11 s | Grande branche au soleil | Pêché à Tabarka / *en Tunisie* |
+| 6 à 11 s | Grande branche au soleil | Pêché à Tabarka / *et à Bizerte* |
 | 11 à 14 s | Récolte de corail | Chaque pièce / *est unique* |
 | 14 à 17 s | Carte de fin noire | MAJDI CORAIL · L'élégance rare de la mer · @majdicorail |
 
@@ -22,7 +22,7 @@
 > L'élégance rare de la mer ✨
 
 ## Hashtags
-#corail #corailrouge #redcoral #coraljewelry #bijouxcorail #tabarka #mediterranee #bijouxartisanaux #handmadejewelry #bijouxfaitmain #piecesunique #bijouxdeluxe #jewelrytok #luxuryjewelry #majdicorail
+#corail #corailrouge #redcoral #coraljewelry #bijouxcorail #tabarka #bizerte #tunisie #mediterranee #bijouxartisanaux #handmadejewelry #bijouxfaitmain #piecesunique #jewelrytok #majdicorail
 
 ## Son
 À ajouter dans TikTok / Instagram au moment de publier : un son tendance calme et élégant (piano, cordes, ambiance mer).
