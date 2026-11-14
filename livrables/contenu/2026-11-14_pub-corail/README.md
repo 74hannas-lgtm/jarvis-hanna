@@ -48,3 +48,18 @@ Ajouter un son tendance dans TikTok (meilleure portée) : piano/cordes lent, ou 
 
 Ajouts par rapport à la v2 : vidéo double rang sur buste, vidéo bustes/marbre, vidéo de mesure au pied à coulisse, photo du pied à coulisse horizontal, photo cabochons + chapelet, photo cabochons rouges.
 Déroulé : intro → amas (atelier) → double rang (atelier + vidéo) → parure → héritage (vidéo) → éclat naturel → mesure (vidéo + photo) → pesée → cabochons & chapelets → formes rares (vidéo) → rouge profond → collier en dégradé → carte de fin.
+
+---
+
+## Version 4 : avec musique (version finale)
+**Fichier :** `majdi_corail_pub_atelier_musique.mp4`, 42 s, musique intégrée.
+
+**Musique originale « Corail »** composée pour la vidéo (aucun droit d'auteur à payer) : ré majeur, 69 BPM, piano doux, cordes, violoncelle et harpe.
+- 0–3 s : glissando de harpe, comme une vague
+- 3–10 s : entrée des cordes et du violoncelle
+- 10–17 s : arpèges de piano
+- 17–38 s : mélodie romantique au piano
+- 38–42 s : accord final et glissando de harpe, fondu de sortie
+
+Fichiers : `musique_corail_originale.m4a` (audio seul, pour d'autres vidéos), `musique_corail_originale.mid` (partition), `musique_build.py`.
+Sur TikTok, tu peux garder cette musique (son original) ou baisser son volume et ajouter un son tendance par-dessus.
