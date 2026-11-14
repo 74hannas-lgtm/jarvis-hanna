@@ -30,3 +30,13 @@ Ajouter un son tendance dans TikTok (meilleure portée) : piano/cordes lent, ou 
 
 ## Refaire le montage
 `python3 montage_build.py` (chemins des sources à adapter en haut du script).
+
+---
+
+## Version 2 : atelier de haute joaillerie
+**Fichier :** `majdi_corail_pub_atelier.mp4`, 1080x1920, 28 s, sans son.
+
+- 3 scènes refaites par l'IA Canva dans un atelier (images dans `images-atelier/`) : amas de colliers, double rang sur buste, parure. Les enseignes inventées par l'IA ont été floutées.
+- Tes vraies photos (main, pied à coulisse, balance, cabochons, collier en dégradé) sont présentées dans un cadre doré sur fond d'atelier flouté, sans modification de la pièce.
+- Écartées : les versions IA du collier seul (perles uniformisées) et des cabochons (formes modifiées), car elles ne sont pas fidèles aux vraies pièces.
+- Design Canva source : « Story verticale Majdi Corail ».
