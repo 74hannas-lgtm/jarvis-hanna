@@ -40,3 +40,11 @@ Ajouter un son tendance dans TikTok (meilleure portée) : piano/cordes lent, ou 
 - Tes vraies photos (main, pied à coulisse, balance, cabochons, collier en dégradé) sont présentées dans un cadre doré sur fond d'atelier flouté, sans modification de la pièce.
 - Écartées : les versions IA du collier seul (perles uniformisées) et des cabochons (formes modifiées), car elles ne sont pas fidèles aux vraies pièces.
 - Design Canva source : « Story verticale Majdi Corail ».
+
+---
+
+## Version 3 : atelier complète (recommandée)
+**Fichier :** `majdi_corail_pub_atelier_complete.mp4`, 1080x1920, 42 s, sans son.
+
+Ajouts par rapport à la v2 : vidéo double rang sur buste, vidéo bustes/marbre, vidéo de mesure au pied à coulisse, photo du pied à coulisse horizontal, photo cabochons + chapelet, photo cabochons rouges.
+Déroulé : intro → amas (atelier) → double rang (atelier + vidéo) → parure → héritage (vidéo) → éclat naturel → mesure (vidéo + photo) → pesée → cabochons & chapelets → formes rares (vidéo) → rouge profond → collier en dégradé → carte de fin.
