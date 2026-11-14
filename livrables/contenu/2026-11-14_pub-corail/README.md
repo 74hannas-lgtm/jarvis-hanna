@@ -63,3 +63,9 @@ Déroulé : intro → amas (atelier) → double rang (atelier + vidéo) → paru
 
 Fichiers : `musique_corail_originale.m4a` (audio seul, pour d'autres vidéos), `musique_corail_originale.mid` (partition), `musique_build.py`.
 Sur TikTok, tu peux garder cette musique (son original) ou baisser son volume et ajouter un son tendance par-dessus.
+
+---
+
+## Version 5 : nouveau nom de marque HafsiCoral
+**Fichier :** `hafsicoral_pub_atelier_musique.mp4`, 42 s, avec musique. Identique à la v4, avec « HafsiCoral » à la place de « Majdi Corail » (intro, logo en haut de chaque plan, carte de fin).
+Les comptes affichés en fin de vidéo restent @majdicorail et @jewelrycoralred, à mettre à jour si tu les renommes.

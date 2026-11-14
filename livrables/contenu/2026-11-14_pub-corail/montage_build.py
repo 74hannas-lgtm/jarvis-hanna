@@ -52,7 +52,7 @@ def gradient(img, y0, y1, amax, up=False):
 
 def top_mark(img):
     d = ImageDraw.Draw(img)
-    spaced(d, 175, "MAJDI CORAIL", font(CZ % "500", 30), GOLD, 9)
+    spaced(d, 175, "HafsiCoral", font(CZ % "500", 36), GOLD, 7)
 
 def caption_png(name, line1, line2=None, y=1330):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -73,8 +73,8 @@ def intro_png():
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     ornament(d, 760, 110)
-    spaced(d, 870, "MAJDI", font(CZ % "500", 124), GOLD, 26)
-    spaced(d, 1010, "CORAIL", font(CZ % "500", 124), GOLD, 26)
+    spaced(d, 870, "HAFSI", font(CZ % "500", 124), GOLD, 26)
+    spaced(d, 1010, "CORAL", font(CZ % "500", 124), GOLD, 26)
     ornament(d, 1110, 110)
     soft_text(img, 1200, "Corail rouge de Tabarka", font(CG % "500-italic", 60), CREAM)
     p = os.path.join(OUT, "intro.png"); img.save(p); return p
@@ -82,7 +82,7 @@ def intro_png():
 def outro_png():
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    spaced(d, 560, "MAJDI CORAIL", font(CZ % "500", 64), GOLD, 14)
+    spaced(d, 560, "HafsiCoral", font(CZ % "500", 76), GOLD, 10)
     ornament(d, 660, 110)
     soft_text(img, 800, "L'élégance rare", font(CG % "500-italic", 104), GOLD)
     soft_text(img, 910, "de la mer", font(CG % "500-italic", 104), GOLD)
